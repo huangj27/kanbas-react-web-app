@@ -2,99 +2,46 @@
     <head>
         <link href="../vendors/fontawesome/css/all.css" rel="stylesheet"/>
         <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="./index.css">
     <head>
     <body>
         <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-dark text-white">
-                    <ul>
-                        <li>
-                            <a href="./panels/two-panel-profile.html">Account</a>
-                        </li>
-                        <li>
-                            <a href="#">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="./panels/two-panel-courses-nav.html">Courses</a>
-                        </li>
-                        <li>
-                            <a href="#">Calendar</a>
-                        </li>
-                        <li>
-                            <a href="#">Inbox</a>
-                        </li>
-                        <li>
-                            <a href="#">History</a>
-                        </li>
-                        <li>
-                            <a href="#">Studio</a>
-                        </li>
-                        <li>
-                            <a href="#">Commons</a>
-                        </li>
-                        <li>
-                            <a href="#">Help</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1  bg-dark text-white">
-                    <ul>
-                        <li>
-                            <a href="./home.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Modules</a>
-                        </li>
-                        <li>
-                            <a href="#">Piazza</a>
-                        </li>
-                        <li>
-                            <a href="#">Zoom Meetings</a>
-                        </li>
-                        <li>
-                            <a href="./assignments/index.html">Assignments</a>
-                        </li>
-                        <li>
-                            <a href="#">Quizzes</a>
-                        </li>
-                        <li>
-                            <a href="./grades.html">Grades</a>
-                        </li>
-                        <li>
-                            <a href="#">People</a>
-                        </li>
-                        <li>
-                            <a href="#">Panopto Video</a>
-                        </li>
-                        <li>
-                            <a href="#">Discussions</a>
-                        </li>
-                        <li>
-                            <a href="#">Announcements</a>
-                        </li>
-                        <li>
-                            <a href="#">Pages</a>
-                        </li>
-                        <li>
-                            <a href="#">Files</a>
-                        </li>
-                        <li>
-                            <a href="#">Rubrics</a>
-                        </li>
-                        <li>
-                            <a href="#">Outcomes</a>
-                        </li>
-                        <li>
-                            <a href="#">Collaborations</a>
-                        </li>
-                        <li>
-                            <a href="#">Syllabus</a>
-                        </li>
-                        <li>
-                            <a href="#">Settings</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-5 bg-secondary text-white">
+
+            <div class="list-group list-group-flush col-1">
+                <i class="fa fa-user" aria-hidden="true" style="font-size: 3em"></i>
+                <a href="./panels/two-panel-profile.html" class="list-group-item list-group-item-action bg-white text-dark active" >Account</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Dashboard</a>
+                <a href="./panels/two-panel-courses-nav.html" class="list-group-item list-group-item-action bg-dark text-white">Courses</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Calendar</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Inbox</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">History</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Studio</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Commons</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Help</a>
+            </div>
+
+            <div class="list-group list-group-flush nav-bar-fixed col-2">
+                <a href="./home.html" class="list-group-item list-group-item-action active">Home</a>
+                <a href="#" class="list-group-item list-group-item-action">Modules</a>
+                <a href="#" class="list-group-item list-group-item-action">Piazza</a>
+                <a href="#" class="list-group-item list-group-item-action">Zoom Meetings</a>
+                <a href="./assignments/index.html" class="list-group-item list-group-item-action">Assignments</a>
+                <a href="#" class="list-group-item list-group-item-action">Quizzes</a>
+                <a href="./grades.html" class="list-group-item list-group-item-action">Grades</a>
+                <a href="#" class="list-group-item list-group-item-action">People</a>
+                <a href="#" class="list-group-item list-group-item-action">Panopto Video</a>
+                <a href="#" class="list-group-item list-group-item-action">Discussions</a>
+                <a href="#" class="list-group-item list-group-item-action">Announcements</a>
+                <a href="#" class="list-group-item list-group-item-action">Pages</a>
+                <a href="#" class="list-group-item list-group-item-action">Files</a>
+                <a href="#" class="list-group-item list-group-item-action">Rubrics</a>
+                <a href="#" class="list-group-item list-group-item-action">Outcomes</a>
+                <a href="#" class="list-group-item list-group-item-action">Collaborations</a>
+                <a href="#" class="list-group-item list-group-item-action">Syllabus</a>
+                <a href="#" class="list-group-item list-group-item-action">Settings</a>
+            </div>
+            <div class="list-group list-group-flush nav-bar-fixed col-6">
+                <div class="col-5 text-dark">
                     <button>Collapse All</button>
                     <button>View Progress</button>
                     <select>
@@ -185,8 +132,9 @@
                         </ul>
                     </ul>
                 </div>
-                <div class="col-1 bg-info text-white">
-                    <h2>Course Status</h2>
+            </div>
+            <div class="list-group list-group-flush nav-bar-fixed col-2">
+                <h2>Course Status</h2>
             
                     <button>Unpublish</button>
                     <button>Publish</button>
