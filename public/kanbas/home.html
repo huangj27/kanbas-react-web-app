@@ -2,182 +2,227 @@
     <head>
         <link href="../vendors/fontawesome/css/all.css" rel="stylesheet"/>
         <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" type="text/css" href="./index.css">
+        <link rel="stylesheet" type="text/css" href="./navigation/index.css">
     <head>
     <body>
-        <div class="row">
-
-            <div class="list-group list-group-flush col-1">
-                <i class="fa fa-user" aria-hidden="true" style="font-size: 3em"></i>
-                <a href="./panels/two-panel-profile.html" class="list-group-item list-group-item-action bg-white text-dark active" >Account</a>
-                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Dashboard</a>
-                <a href="./panels/two-panel-courses-nav.html" class="list-group-item list-group-item-action bg-dark text-white">Courses</a>
-                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Calendar</a>
-                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Inbox</a>
-                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">History</a>
-                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Studio</a>
-                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Commons</a>
-                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Help</a>
+        <div class="row g-2">
+            <div class="col-1 kanbas-nav">
+                <img src="../images/northeastern-logo.jpeg">
+                <i class="fas fa-user-circle" style="color: #c1c2c2;"></i>
+                <a href="./account-nav.html">Account</a>
+                <i class="fas fa-tachometer-alt"></i>
+                <a href="./dashboard-nav.html">Dashboard</a>
+                <i class="fa fa-book active"></i>
+                <a href="./courses-nav.html" class="active">Courses</a>
+                <i class="far fa-calendar-alt"></i>
+                <a href="#">Calendar</a>
+                <i class="fa fa-envelope-open-text"></i>
+                <a href="#">Inbox</a>
+                <i class="far fa-clock"></i>
+                <a href="#">History</a>
+                <i class="fas fa-tv"></i>
+                <a href="#">Studio</a>
+                <i class="far fa-arrow-alt-circle-right"></i>
+                <a href="#">Commons</a>
+                <i class="far fa-question-circle"></i>
+                <a href="#">Help</a>   
             </div>
-
-            <div class="list-group list-group-flush nav-bar-fixed col-2">
-                <a href="./home.html" class="list-group-item list-group-item-action active">Home</a>
-                <a href="#" class="list-group-item list-group-item-action">Modules</a>
-                <a href="#" class="list-group-item list-group-item-action">Piazza</a>
-                <a href="#" class="list-group-item list-group-item-action">Zoom Meetings</a>
-                <a href="./assignments/index.html" class="list-group-item list-group-item-action">Assignments</a>
-                <a href="#" class="list-group-item list-group-item-action">Quizzes</a>
-                <a href="./grades.html" class="list-group-item list-group-item-action">Grades</a>
-                <a href="#" class="list-group-item list-group-item-action">People</a>
-                <a href="#" class="list-group-item list-group-item-action">Panopto Video</a>
-                <a href="#" class="list-group-item list-group-item-action">Discussions</a>
-                <a href="#" class="list-group-item list-group-item-action">Announcements</a>
-                <a href="#" class="list-group-item list-group-item-action">Pages</a>
-                <a href="#" class="list-group-item list-group-item-action">Files</a>
-                <a href="#" class="list-group-item list-group-item-action">Rubrics</a>
-                <a href="#" class="list-group-item list-group-item-action">Outcomes</a>
-                <a href="#" class="list-group-item list-group-item-action">Collaborations</a>
-                <a href="#" class="list-group-item list-group-item-action">Syllabus</a>
-                <a href="#" class="list-group-item list-group-item-action">Settings</a>
+            <div class="col-2">
+                <ul class="list-group course-nav">
+                    <li class="list-group-item active">
+                        <a href="../home.html">Home</a>  
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Modules</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Piazza</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Zoom Meetings</a>
+                    </li>   
+                    <li class="list-group-item">
+                        <a href="../assignments/index.html">Assignments</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Quizzes</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../grades.html">Grades</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">People</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Panopto Video</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Discussions</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Announcements</a>
+                    </li> 
+                    <li class="list-group-item">
+                        <a href="#">Pages</a>
+                    </li>  
+                    <li class="list-group-item">
+                        <a href="#">Files</a>
+                    </li>   
+                    <li class="list-group-item">
+                        <a href="#">Rubrics</a>
+                    </li>  
+                    <li class="list-group-item">
+                        <a href="#">Outcomes</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Collaborations</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Syllabus</a>
+                    </li>   
+                    <li class="list-group-item">
+                        <a href="#">Settings</a>
+                    </li>
+                </ul>
             </div>
-            <div class="list-group list-group-flush nav-bar-fixed col-6">
-                <div class="col-5 text-dark">
-                    <button>Collapse All</button>
-                    <button>View Progress</button>
-                    <select>
-                        <option value="#">Publish All</option>
-                    </select>
-                    <button>Module</button>
-                    
+            <div class="col-6">
+                hello
+                <!-- <button>Collapse All</button>
+                <button>View Progress</button>
+                <select>
+                    <option value="#">Publish All</option>
+                </select>
+                <button>Module</button>
+                
+                <ul>
+                    <li>
+                        Week 0 - INTRO
+                    </li>
                     <ul>
                         <li>
-                            Week 0 - INTRO
+                            LEARNING OBJECTIVES
                         </li>
                         <ul>
                             <li>
-                                LEARNING OBJECTIVES
+                                Introduction to the course
                             </li>
-                            <ul>
-                                <li>
-                                    Introduction to the course
-                                </li>
-                                <li>
-                                    Learn what is Web Development
-                                </li>
-                                <li>
-                                    Creating a development environment 
-                                </li>
-                                <li>
-                                    Creating a Web Application
-                                </li>
-                                <li>
-                                    Getting started with the 1st assignment
-                                </li>
-                            </ul>
                             <li>
-                                READING
+                                Learn what is Web Development
                             </li>
-                            <ul>
-                                <li>
-                                    Full Stack Developer - Chapter 1 - Introduction
-                                </li>
-                                <li>
-                                    Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML
-                                </li>
-                            </ul>
                             <li>
-                                SLIDES
+                                Creating a development environment 
                             </li>
-                            <ul>
-                                <li>
-                                    <a href="#">Introduction to Web Development Links to an external site.<a>
-                                </li>
-                                <li>
-                                    <a href="#">Creating an HTTP server with Node.js Links to an external site.<a>
-                                </li>
-                                <li>
-                                    <a href="#">Creating a React Application Links to an external site.<a>
-                                </li>
-                            </ul>
+                            <li>
+                                Creating a Web Application
+                            </li>
+                            <li>
+                                Getting started with the 1st assignment
+                            </li>
                         </ul>
                         <li>
-                            Week 1 - HTML
+                            READING
                         </li>
                         <ul>
                             <li>
-                                LEARNING OBJECTIVES
+                                Full Stack Developer - Chapter 1 - Introduction
                             </li>
-                            <ul>
-                                <li>
-                                    Learn how to create user interfaces with HTML
-                                </li>
-                                <li>
-                                    Keep working on assignment 1
-                                </li>
-                                <li>
-                                    Deploy the assignment to Netlify
-                                </li>
-                            </ul>
                             <li>
-                                READING
+                                Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML
                             </li>
-                            <ul>
-                                <li>
-                                    Full Stack Developer - Chapter 1 - Introduction
-                                </li>
-                                <li>
-                                    Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML
-                                </li>
-                            </ul>
+                        </ul>
+                        <li>
+                            SLIDES
+                        </li>
+                        <ul>
+                            <li>
+                                <a href="#">Introduction to Web Development Links to an external site.<a>
+                            </li>
+                            <li>
+                                <a href="#">Creating an HTTP server with Node.js Links to an external site.<a>
+                            </li>
+                            <li>
+                                <a href="#">Creating a React Application Links to an external site.<a>
+                            </li>
                         </ul>
                     </ul>
-                </div>
+                    <li>
+                        Week 1 - HTML
+                    </li>
+                    <ul>
+                        <li>
+                            LEARNING OBJECTIVES
+                        </li>
+                        <ul>
+                            <li>
+                                Learn how to create user interfaces with HTML
+                            </li>
+                            <li>
+                                Keep working on assignment 1
+                            </li>
+                            <li>
+                                Deploy the assignment to Netlify
+                            </li>
+                        </ul>
+                        <li>
+                            READING
+                        </li>
+                        <ul>
+                            <li>
+                                Full Stack Developer - Chapter 1 - Introduction
+                            </li>
+                            <li>
+                                Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML
+                            </li>
+                        </ul>
+                    </ul>
+                </ul> -->
             </div>
-            <div class="list-group list-group-flush nav-bar-fixed col-2">
-                <h2>Course Status</h2>
+            <div class="col-2">
+                hiii
+                <!-- <h2>Course Status</h2>
             
-                    <button>Unpublish</button>
-                    <button>Publish</button>
-                    
-                    <ul>
-                        <li>
-                            <a href="#">Import Existing Content</a>
-                        </li>
-                        <li>
-                            <a href="#">Import From Commons</a>
-                        </li>
-                        <li>
-                            <a href="#">Choose Home Page</a>
-                        </li>
-                        <li>
-                            <a href="#">View Course Stream</a>
-                        </li>
-                        <li>
-                            <a href="#">New Announcement</a>
-                        </li>
-                        <li>
-                            <a href="#">New Analytics</a>
-                        </li>
-                        <li>
-                            <a href="#">View Course Notifications</a>
-                        </li>
-                    </ul>
-                    
-                    <h2>Coming Up</h2>
-                    
-                    <a href="#">View Calendar</a>
-                    
-                    <ul>
-                        <li>
-                            <a href="#">Lecture CS4550.12631.202410 Sep 7 at 11:45am</a>
-                        </li>
-                        <li>
-                            <a href="#">Lecture CS4550.12631.202410 Sep 11 at 11:45am</a>
-                        </li>
-                        <li>
-                            <a href="#">CS5610 06 SP23 Lecture Sep 11 at 6pm</a>
-                        </li>
-                    </ul>
+                <button>Unpublish</button>
+                <button>Publish</button>
+                
+                <ul>
+                    <li>
+                        <a href="#">Import Existing Content</a>
+                    </li>
+                    <li>
+                        <a href="#">Import From Commons</a>
+                    </li>
+                    <li>
+                        <a href="#">Choose Home Page</a>
+                    </li>
+                    <li>
+                        <a href="#">View Course Stream</a>
+                    </li>
+                    <li>
+                        <a href="#">New Announcement</a>
+                    </li>
+                    <li>
+                        <a href="#">New Analytics</a>
+                    </li>
+                    <li>
+                        <a href="#">View Course Notifications</a>
+                    </li>
+                </ul>
+                
+                <h2>Coming Up</h2>
+                
+                <a href="#">View Calendar</a>
+                
+                <ul>
+                    <li>
+                        <a href="#">Lecture CS4550.12631.202410 Sep 7 at 11:45am</a>
+                    </li>
+                    <li>
+                        <a href="#">Lecture CS4550.12631.202410 Sep 11 at 11:45am</a>
+                    </li>
+                    <li>
+                        <a href="#">CS5610 06 SP23 Lecture Sep 11 at 6pm</a>
+                    </li>
+                </ul> -->
             </div>
         </div>
     </body>

@@ -1,0 +1,35 @@
+.profile-screen {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.profile-screen div {
+    padding: 10px;
+}
+
+.edit-profile-links {
+    width: 500px;
+    border: none;
+}
+
+.edit-profile-links .row {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.edit-profile-links .col {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* .input-group {
+    margin: 0px;
+} */
