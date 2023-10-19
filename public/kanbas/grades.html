@@ -1,163 +1,211 @@
-<table>
-    <tr>
-        <td valign="top">
-            <ul>
-                <li>
-                    <a href="./panels/two-panel-profile.html">Account</a>
+<html>
+    <head>
+        <link href="../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+        <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="./navigation/navigation.css">
+        <link rel="stylesheet" type="text/css" href="grades.css">
+    <head>
+    <body>
+        <div class="kanbas-nav">
+            <img src="../images/northeastern-logo.jpeg">
+            <i class="fas fa-user-circle" style="color: #c1c2c2;"></i>
+            <a href="./navigation/account-nav.html">Account</a>
+            <i class="fas fa-tachometer-alt"></i>
+            <a href="./navigation/dashboard-nav.html">Dashboard</a>
+            <i class="fa fa-book active"></i>
+            <a href="./navigation/courses-nav.html" class="active">Courses</a>
+            <i class="far fa-calendar-alt"></i>
+            <a href="#">Calendar</a>
+            <i class="fa fa-envelope-open-text"></i>
+            <a href="#">Inbox</a>
+            <i class="far fa-clock"></i>
+            <a href="#">History</a>
+            <i class="fas fa-tv"></i>
+            <a href="#">Studio</a>
+            <i class="far fa-arrow-alt-circle-right"></i>
+            <a href="#">Commons</a>
+            <i class="far fa-question-circle"></i>
+            <a href="#">Help</a>   
+        </div>
+        <div class="page-title-bar">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                    <i class="fas fa-bars" style="color: #ff0000; padding-right:20px"></i>
+                    <a href="#">CS4550.12631.202410</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Grades</li>
+                </ol>
+                </nav>
+            <hr>
+        </div>
+        <div class="course-nav">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="./home.html">Home</a>  
                 </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="./panels/two-panel-courses-nav.html">Courses</a>
-                </li>
-                <li>
-                    <a href="#">Calendar</a>
-                </li>
-                <li>
-                    <a href="#">Inbox</a>
-                </li>
-                <li>
-                    <a href="#">History</a>
-                </li>
-                <li>
-                    <a href="#">Studio</a>
-                </li>
-                <li>
-                    <a href="#">Commons</a>
-                </li>
-                <li>
-                    <a href="#">Help</a>
-                </li>
-            </ul>
-        </td>
-        <td valign="top" width="20%">
-            <ul>
-                <li>
-                    <a href="./home.html">Home</a>
-                </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Modules</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Piazza</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Zoom Meetings</a>
-                </li>
-                <li>
+                </li>   
+                <li class="list-group-item">
                     <a href="./assignments/index.html">Assignments</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Quizzes</a>
                 </li>
-                <li>
+                <li class="list-group-item active">
                     <a href="./grades.html">Grades</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">People</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Panopto Video</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Discussions</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Announcements</a>
-                </li>
-                <li>
+                </li> 
+                <li class="list-group-item">
                     <a href="#">Pages</a>
-                </li>
-                <li>
+                </li>  
+                <li class="list-group-item">
                     <a href="#">Files</a>
-                </li>
-                <li>
+                </li>   
+                <li class="list-group-item">
                     <a href="#">Rubrics</a>
-                </li>
-                <li>
+                </li>  
+                <li class="list-group-item">
                     <a href="#">Outcomes</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Collaborations</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Syllabus</a>
-                </li>
-                <li>
+                </li>   
+                <li class="list-group-item">
                     <a href="#">Settings</a>
                 </li>
             </ul>
-        </td>
-        <td valign="top">
-            <select>
-                <option value="#">Gradebook</option>
-            </select>
-            <button>Import</button>
-            <select>
-                <option value="#">Export</option>
-            </select>
-            <button>Configure</button>
-            
-            <h2>Student Names</h2>
-            
-            <input type="text" placeholder="Search Students" id="search-students"><br/>
-            
-            <h2>Assignment Names</h2>
-            
-            <input type="text" placeholder="Search Assignments" id="search-assignments"><br/>
-            <br>
-            
-            <button>Apply Filters</button>
+        </div>
 
-            <br>
-            <br>
-            
-            <table border="1" width="100%">
-                <tr>
-                    <th>Student Name</th>
-                    <th>A1 SETUP Out of 100</th>
-                    <th>A2 HTML Out of 100</th>
-                    <th>A3 CSS Out of 100</th>
-                    <th>A4 BOOTSTRAP Out of 100</th>
-                </tr>
-                <tr>
-                    <td align="center">Alice Wonderland</td>
-                    <td align="center">98</td>
-                    <td align="center">89</td>
-                    <td align="center">87</td>
-                    <td align="center">
-                        <input type="number" value="90" style="text-align:center" id="alice-edit-grade">        
-                    </td>
-                </tr>
-                <tr>
-                    <td align="center">Princess Leia</td>
-                    <td align="center">
-                        <input type="number" value="98" style="text-align:center" id="leia-edit-grade">        
-                    </td>
-                    <td align="center">80</td>
-                    <td align="center">87</td>
-                    <td align="center">86</td>
-                </tr>
-                <tr>
-                    <td align="center">Luke Skywalker</td>
-                    <td align="center">99</td>
-                    <td align="center">88</td>
-                    <td align="center">
-                        <input type="number" value="97" style="text-align:center" id="luke-edit-grade">        
-                    </td>
-                    <td align="center">82</td>
-                </tr>
-                <tr>
-                    <td align="center">Han Solo</td>
-                    <td align="center">83</td>
-                    <td align="center">
-                        <input type="number" value="99" style="text-align:center" id="han-edit-grade">        
-                    </td>
-                    <td align="center">94</td>
-                    <td align="center">98</td>
-                </tr>
+
+        <div class="grades">
+            <div class="top-buttons">
+                <button type="button" class="btn btn-light float-end">
+                    <i class="fas fa-cog" style="color: #000000; font-size:x-large"></i>
+                </button>
+                <select class="form-select btn btn-light float-end">
+                    <option value="#">
+                        Export
+                    </option>
+                </select>
+
+                <button type="button" class="btn btn-light float-end">
+                    <i class="fas fa-file-import" style="color: #000000;"></i>
+                    Import
+                </button>
+                <br>
+            </div>
+                    
+            <div class="grades-search-bar">
+                <div class="search-bar">
+                    <label for="search-students">
+                        <h5><b>Student Names</b></h5>
+                    </label>
+                    <select class="form-select">
+                        <option selected>
+                            Search Students
+                        </option>
+                    </select>
+                </div>
+                <div class="search-bar">
+                    <label for="search-assignments">
+                        <h5><b>Assignment Names</b></h5>
+                    </label>
+                    <select class="form-select">
+                        <option selected>
+                            Search Assignments
+                        </option>
+                    </select>
+                </div>
+
+            </div>
+                    
+            <button type="button" class="btn btn-light">
+                <i class="fas fa-filter" style="color: #000000;"></i>
+                Apply Filters
+            </button>
+
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td class="student-name"><b>Student Name</b></td>
+                        <td>A1 SETUP Out of 100</td>
+                        <td>A2 HTML Out of 100</td>
+                        <td>A3 CSS Out of 100</td>
+                        <td>A4 BOOTSTRAP Out of 100</td>
+                    </tr>
+                    <tr>
+                        <td class="student-name"><a href="#">Alice Wonderland</a></td>
+                        <td>98%</td>
+                        <td>89</td>
+                        <td>87</td>
+                        <td>
+                            <input type="number" class="form-control" value="90" id="alice-edit-grade">     
+                            <button type="button" class="btn btn-light">
+                                <i class="fas fa-file-import" style="color: #000000;"></i>   
+                            </button>  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="student-name"><a href="#">Princess Leia</a></td>
+                        <td>
+                            <input type="number" class="form-control" value="98" id="leia-edit-grade">     
+                            <button type="button" class="btn btn-light">
+                                <i class="fas fa-file-import" style="color: #000000;"></i>   
+                            </button>  
+                        </td>
+                        <td>80</td>
+                        <td>87</td>
+                        <td>86</td>
+                    </tr>
+                    <tr>
+                        <td class="student-name"><a href="#">Luke Skywalker</a></td>
+                        <td>99</td>
+                        <td>88</td>
+                        <td>
+                            <input type="number" class="form-control" value="97" id="luke-edit-grade">     
+                            <button type="button" class="btn btn-light">
+                                <i class="fas fa-file-import" style="color: #000000;"></i>   
+                            </button>  
+                        </td>
+                        <td>82</td>
+                    </tr>
+                    <tr>
+                        <td class="student-name"><a href="#">Han Solo</a></td>
+                        <td>83</td>
+                        <td>
+                            <input type="number" class="form-control" value="99" id="han-edit-grade">     
+                            <button type="button" class="btn btn-light">
+                                <i class="fas fa-file-import" style="color: #000000;"></i>   
+                            </button>  
+                        </td>
+                        <td>94</td>
+                        <td>98</td>
+                    </tr>
+                </tbody>
             </table>
-        </td>
-    </tr>
-</table>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+.grades {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 350px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.grades .top-buttons .btn {
+    display: inline;
+    margin: 5px;
+}
+
+.grades .top-buttons .form-select {
+    width: 5%;
+}
+
+.grades-search-bar {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.grades-search-bar .input {
+    padding: 10px;
+}
+
+.grades-search-bar .form-control {
+    width: 50%;
+}
+
+.form-control {
+    width: 20%;
+    text-align: center;
+    display:inline;
+}
+
+input {
+    text-align: center;
+}
+
+.search-bar {
+    display: inline-block;
+    width: 49%;
+}
+
+table {
+    margin-top: 20px;
+}
+
+td {
+    border-style: solid;
+    border-right: solid;
+    border-color: lightgrey;
+    border-left: solid;
+    border-left-color: lightgrey;
+    border-top: solid;
+    border-top-color: lightgrey;
+    text-align: center;
+}
+
+.student-name {
+    color: red;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
