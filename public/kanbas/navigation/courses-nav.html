@@ -2,89 +2,99 @@
     <head>
         <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
         <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="navigation.css">
     <head>
     <body>
-        <div class="row g-2">
-            <div class="col-1 kanbas-nav">
-                <img src="../../images/northeastern-logo.jpeg">
-                <i class="fas fa-user-circle" style="color: #c1c2c2;"></i>
-                <a href="./account-nav.html">Account</a>
-                <i class="fas fa-tachometer-alt"></i>
-                <a href="./dashboard-nav.html">Dashboard</a>
-                <i class="fa fa-book active"></i>
-                <a href="./courses-nav.html" class="active">Courses</a>
-                <i class="far fa-calendar-alt"></i>
-                <a href="#">Calendar</a>
-                <i class="fa fa-envelope-open-text"></i>
-                <a href="#">Inbox</a>
-                <i class="far fa-clock"></i>
-                <a href="#">History</a>
-                <i class="fas fa-tv"></i>
-                <a href="#">Studio</a>
-                <i class="far fa-arrow-alt-circle-right"></i>
-                <a href="#">Commons</a>
-                <i class="far fa-question-circle"></i>
-                <a href="#">Help</a>   
-            </div>
-            <div class="col-2">
-                <ul class="list-group course-nav">
-                    <li class="list-group-item active">
-                        <a href="../home.html">Home</a>  
+        <div class="kanbas-nav">
+            <img src="../../images/northeastern-logo.jpeg">
+            <i class="fas fa-user-circle" style="color: #c1c2c2;"></i>
+            <a href="./account-nav.html">Account</a>
+            <i class="fas fa-tachometer-alt"></i>
+            <a href="./dashboard-nav.html">Dashboard</a>
+            <i class="fa fa-book active"></i>
+            <a href="./courses-nav.html" class="active">Courses</a>
+            <i class="far fa-calendar-alt"></i>
+            <a href="#">Calendar</a>
+            <i class="fa fa-envelope-open-text"></i>
+            <a href="#">Inbox</a>
+            <i class="far fa-clock"></i>
+            <a href="#">History</a>
+            <i class="fas fa-tv"></i>
+            <a href="#">Studio</a>
+            <i class="far fa-arrow-alt-circle-right"></i>
+            <a href="#">Commons</a>
+            <i class="far fa-question-circle"></i>
+            <a href="#">Help</a>   
+        </div>
+        <div class="page-title-bar">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                    <i class="fas fa-bars" style="color: #ff0000; padding-right:20px"></i>
+                    <a href="#">CS4550.12631.202410</a>
                     </li>
-                    <li class="list-group-item">
-                        <a href="#">Modules</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Piazza</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Zoom Meetings</a>
-                    </li>   
-                    <li class="list-group-item">
-                        <a href="../assignments/index.html">Assignments</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Quizzes</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../grades.html">Grades</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">People</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Panopto Video</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Discussions</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Announcements</a>
-                    </li> 
-                    <li class="list-group-item">
-                        <a href="#">Pages</a>
-                    </li>  
-                    <li class="list-group-item">
-                        <a href="#">Files</a>
-                    </li>   
-                    <li class="list-group-item">
-                        <a href="#">Rubrics</a>
-                    </li>  
-                    <li class="list-group-item">
-                        <a href="#">Outcomes</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Collaborations</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Syllabus</a>
-                    </li>   
-                    <li class="list-group-item">
-                        <a href="#">Settings</a>
-                    </li>
-                </ul>
-            </div>
+                    <li class="breadcrumb-item active" aria-current="page">Modules</li>
+                </ol>
+                </nav>
+            <hr>
+        </div>
+        <div class="course-nav">
+            <ul class="list-group">
+                <li class="list-group-item active">
+                    <a href="../home.html">Home</a>  
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Modules</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Piazza</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Zoom Meetings</a>
+                </li>   
+                <li class="list-group-item">
+                    <a href="../assignments/index.html">Assignments</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Quizzes</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="../grades.html">Grades</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">People</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Panopto Video</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Discussions</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Announcements</a>
+                </li> 
+                <li class="list-group-item">
+                    <a href="#">Pages</a>
+                </li>  
+                <li class="list-group-item">
+                    <a href="#">Files</a>
+                </li>   
+                <li class="list-group-item">
+                    <a href="#">Rubrics</a>
+                </li>  
+                <li class="list-group-item">
+                    <a href="#">Outcomes</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Collaborations</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Syllabus</a>
+                </li>   
+                <li class="list-group-item">
+                    <a href="#">Settings</a>
+                </li>
+            </ul>
         </div>
     </body>
 </html>

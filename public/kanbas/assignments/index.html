@@ -2,186 +2,450 @@
     <head>
         <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
         <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" type="text/css" href="../navigation/index.css">
+        <link rel="stylesheet" type="text/css" href="../navigation/navigation.css">
+        <link rel="stylesheet" type="text/css" href="assignments.css">
     <head>
     <body>
-        <div class="row g-2">
-            <div class="col-1 kanbas-nav">
-                <img src="../../images/northeastern-logo.jpeg">
-                <i class="fas fa-user-circle" style="color: #c1c2c2;"></i>
-                <a href="./account-nav.html">Account</a>
-                <i class="fas fa-tachometer-alt"></i>
-                <a href="./dashboard-nav.html">Dashboard</a>
-                <i class="fa fa-book active"></i>
-                <a href="./courses-nav.html" class="active">Courses</a>
-                <i class="far fa-calendar-alt"></i>
-                <a href="#">Calendar</a>
-                <i class="fa fa-envelope-open-text"></i>
-                <a href="#">Inbox</a>
-                <i class="far fa-clock"></i>
-                <a href="#">History</a>
-                <i class="fas fa-tv"></i>
-                <a href="#">Studio</a>
-                <i class="far fa-arrow-alt-circle-right"></i>
-                <a href="#">Commons</a>
-                <i class="far fa-question-circle"></i>
-                <a href="#">Help</a>   
+        <div class="kanbas-nav">
+            <img src="../../images/northeastern-logo.jpeg">
+            <i class="fas fa-user-circle" style="color: #c1c2c2;"></i>
+            <a href="../navigation/account-nav.html">Account</a>
+            <i class="fas fa-tachometer-alt"></i>
+            <a href="../navigation/dashboard-nav.html">Dashboard</a>
+            <i class="fa fa-book active"></i>
+            <a href="../navigation/courses-nav.html" class="active">Courses</a>
+            <i class="far fa-calendar-alt"></i>
+            <a href="#">Calendar</a>
+            <i class="fa fa-envelope-open-text"></i>
+            <a href="#">Inbox</a>
+            <i class="far fa-clock"></i>
+            <a href="#">History</a>
+            <i class="fas fa-tv"></i>
+            <a href="#">Studio</a>
+            <i class="far fa-arrow-alt-circle-right"></i>
+            <a href="#">Commons</a>
+            <i class="far fa-question-circle"></i>
+            <a href="#">Help</a>   
+        </div>
+        <div class="page-title-bar">
+            <button type="button" class="btn btn-light float-end">
+                <i class="fas fa-glasses" style="color: #000000;"></i>
+                Student View
+            </button>
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                    <i class="fas fa-bars" style="color: #ff0000; padding-right:20px"></i>
+                    <a href="#">CS4550.12631.202410</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Modules</li>
+                </ol>
+                </nav>
+            <hr>
+        </div>
+        <div class="course-nav">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="../home.html">Home</a>  
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Modules</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Piazza</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Zoom Meetings</a>
+                </li>   
+                <li class="list-group-item active">
+                    <a href="../assignments/index.html">Assignments</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Quizzes</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="../grades.html">Grades</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">People</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Panopto Video</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Discussions</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Announcements</a>
+                </li> 
+                <li class="list-group-item">
+                    <a href="#">Pages</a>
+                </li>  
+                <li class="list-group-item">
+                    <a href="#">Files</a>
+                </li>   
+                <li class="list-group-item">
+                    <a href="#">Rubrics</a>
+                </li>  
+                <li class="list-group-item">
+                    <a href="#">Outcomes</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Collaborations</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Syllabus</a>
+                </li>   
+                <li class="list-group-item">
+                    <a href="#">Settings</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="assignment">
+            <div>
+                <input type="text" class="form-control" placeholder="Search for Assignments" id="search-for-assignments">
+                <div class="float-end">
+                    <button type="button" class="btn btn-light">
+                        <i class="fas fa-plus" style="color: #000000;"></i>
+                        Group</button>
+                    <button type="button" class="btn btn-danger">
+                        <i class="fas fa-plus" style="color: #ffffff;"></i>
+                        Assignment</button>
+                    <button type="button" class="btn btn-light">
+                        <i class="fa fa-ellipsis-v"></i>
+                    </button>
+                </div>
             </div>
-            <div class="col-2">
-                <ul class="list-group course-nav">
-                    <li class="list-group-item">
-                        <a href="../home.html">Home</a>  
+
+            <hr>
+            
+
+            <div class="list-group">                
+                <ul>
+                    <li class="list-group-item assignment-header">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <i class="fas fa-plus float-end" style="color: #000000;"></i>
+                        <span class="badge float-end">40% of Total</span>
+
+                        <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                        <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                        <i class="fas fa-caret-down" style="color: #000000;"></i>
+                        <h4>Assignments</h4>
+                        
                     </li>
                     <li class="list-group-item">
-                        <a href="#">Modules</a>
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>A1 - ENV + HTML</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
                     <li class="list-group-item">
-                        <a href="#">Piazza</a>
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>A2 - CSS + BOOTSTRAP</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
                     <li class="list-group-item">
-                        <a href="#">Zoom Meetings</a>
-                    </li>   
-                    <li class="list-group-item active">
-                        <a href="../assignments/index.html">Assignments</a>
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>A3 - JS + REACT</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
                     <li class="list-group-item">
-                        <a href="#">Quizzes</a>
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>A4 - STATE + REDUX</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
                     <li class="list-group-item">
-                        <a href="../grades.html">Grades</a>
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>A5 - NODE + SESSION</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
                     <li class="list-group-item">
-                        <a href="#">People</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Panopto Video</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Discussions</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Announcements</a>
-                    </li> 
-                    <li class="list-group-item">
-                        <a href="#">Pages</a>
-                    </li>  
-                    <li class="list-group-item">
-                        <a href="#">Files</a>
-                    </li>   
-                    <li class="list-group-item">
-                        <a href="#">Rubrics</a>
-                    </li>  
-                    <li class="list-group-item">
-                        <a href="#">Outcomes</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Collaborations</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#">Syllabus</a>
-                    </li>   
-                    <li class="list-group-item">
-                        <a href="#">Settings</a>
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>A6 - MONGO + MONGOOSE</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
                 </ul>
             </div>
 
-            <div class="col-9">
-                <input type="text" placeholder="Search for Assignments" id="search-for-assignments">
-                <button>Group</button>
-                <button>Assignment</button>
-                <select>
-                    <option value="#">Edit Assignment Dates</option>
-                </select>
-                
-                <br>
-                <br>
-                
-                <h2 style="display:inline">ASSIGNMENTS 40% of Total </h2>
-                <select>
-                    <option value="#">Edit</option>
-                </select>
-                
+            <div class="list-group">                
                 <ul>
-                    <li>
-                        <a href="edit.html">A1 - ENV + HTML</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item assignment-header">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <i class="fas fa-plus float-end" style="color: #000000;"></i>
+                        <span class="badge float-end">10% of Total</span>
+
+                        <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                        <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                        <i class="fas fa-caret-down" style="color: #000000;"></i>
+                        <h4>Quizzes</h4>
+                        
                     </li>
-                    <li>
-                        <a href="edit.html">A2 - CSS + BOOTSTRAP</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>Q1 - HTML</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
-                    <li>
-                        <a href="edit.html">A3 - JS + REACT</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>Q2 - CSS</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
-                    <li>
-                        <a href="edit.html">A4 - STATE + REDUX</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>Q3 - JS, ES6</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
-                    <li>
-                        <a href="edit.html">A5 - NODE + SESSION</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>Q4 - NODE</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
-                    <li>
-                        <a href="edit.html">A6 - MONGO + MONGOOSE</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>Q5 - MONGO</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
                 </ul>
-                
-                <h2 style="display:inline">QUIZZES 10% of Total</h2>
-                <select>
-                    <option value="#">Edit</option>
-                </select>
-                
+            </div>
+
+            <div class="list-group">                
                 <ul>
-                    <li>
-                        <a href="#">Q1 - HTML</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item assignment-header">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <i class="fas fa-plus float-end" style="color: #000000;"></i>
+                        <span class="badge float-end">20% of Total</span>
+
+                        <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                        <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                        <i class="fas fa-caret-down" style="color: #000000;"></i>
+                        <h4>Exams</h4>
+                        
                     </li>
-                    <li>
-                        <a href="#">Q2 - CSS</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>Midterm</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
-                    <li>
-                        <a href="#">Q3 - JS,ES6</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
-                    </li>
-                    <li>
-                        <a href="#">Q4 - NODE</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
-                    </li>
-                    <li>
-                        <a href="#">Q5 - MONGO</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>Final</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
                 </ul>
-                
-                <h2 style="display:inline">EXAMS 20% of Total</h2>
-                <select>
-                    <option value="#">Edit</option>
-                </select>
-                
+            </div>
+
+            <div class="list-group">                
                 <ul>
-                    <li>
-                        <a href="#">Midterm</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item assignment-header">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <i class="fas fa-plus float-end" style="color: #000000;"></i>
+                        <span class="badge float-end">30% of Total</span>
+
+                        <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                        <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                        <i class="fas fa-caret-down" style="color: #000000;"></i>
+                        <h4>Project</h4>
                     </li>
-                    <li>
-                        <a href="#">Final</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
-                    </li>
-                </ul>
-                
-                <h2 style="display:inline">PROJECT 30% of Total</h2>
-                <select>
-                    <option value="#">Edit</option>
-                </select>
-                
-                <ul>
-                    <li>
-                        <a href="#">Project</a><br>
-                        <a href="#">Multiple Modules</a> | Not available yet
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v float-end"></i>
+                        <span class="fa-stack fa float-end">
+                            <i class="fas fa-circle fa-stack-2x green-circle" style="font-size:large"></i>
+                            <i class="fas fa-check fa-stack-1x check-mark" style="font-size: x-small;"></i>
+                        </span>
+                        <span class="assignment-icons">
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="fa fa-ellipsis-v" id="six-dots"></i>
+                            <i class="far fa-edit" style="color: #248f66"></i>
+                        </span>
+                        <div class="assignment-content">
+                            <a href="edit.html">
+                                <b>Project</b>
+                            </a> 
+                            <br>
+                            <a class="assignment-content" href="#">Multiple Modules</a> | Not available yet
+                        </div>
                     </li>
                 </ul>
             </div>

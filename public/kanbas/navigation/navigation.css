@@ -1,0 +1,106 @@
+  .kanbas-nav {
+    float: left;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 85px;
+    height: 100vh;
+    position: fixed;
+}
+  
+  .kanbas-nav a {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-decoration: none;
+    font-size: small;
+    border: none;
+    margin-bottom: 5px;
+  }
+
+  .kanbas-nav .active {
+    background-color: white;
+    color: red;
+    border: none;
+    display: block;
+  }
+
+  .kanbas-nav i {
+    color: red;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    border: none;
+    margin-top: 3px;
+  }
+
+  .kanbas-nav img {
+    width: 5em;
+    text-align: center;
+  }
+
+  .course-nav {
+    float: left;
+    width: 190px;
+    margin-left: 110px;
+    margin-top: 10px;
+    height: 100vh;
+  }
+
+  .course-nav .list-group-item {
+    border: none;
+    padding-top: 15px;
+    padding-left: 5px;
+  }
+
+  .course-nav .list-group-item.active {
+    color: black;
+    background-color: white;
+    border: none;
+    border-left: 2px solid black;
+    border-radius: 0px;
+  }
+
+  .course-nav a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .course-nav .list-group-item.active a {
+    color: black;
+  }
+
+  .page-title-bar {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 105px;
+    padding-top: 25px;
+    padding-right: 25px;
+    float: top;
+  }
+
+  .page-title-bar a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .page-title-bar i {
+    font-size: 1rem;
+  }
+
+  .page-title-bar p {
+    font-size: xx-large;
+  }
+
+  .page-title-bar hr {
+    margin-top: 30px;
+  }
+
+  
+
+/* .body {
+  height: 100%;
+} */
+  
