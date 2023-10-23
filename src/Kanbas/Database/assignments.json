@@ -1,0 +1,11 @@
+[
+    { "_id": "A101", "title": "QGame Assignment", "course": "CS101" },
+    { "_id": "A102", "title": "B-GUI", "course": "CS101" },
+    { "_id": "A103", "title": "4-SCORE", "course": "CS101" },
+    { "_id": "A201", "title": "HTML", "course": "CS102" },
+    { "_id": "A202", "title": "CSS + BOOTSTRAP", "course": "CS102" },
+    { "_id": "A203", "title": "JS + REACT", "course": "CS102" },
+    { "_id": "A301", "title": "DDL", "course": "CS103" },
+    { "_id": "A302", "title": "MYSQL", "course": "CS103" },
+    { "_id": "A303", "title": "Relational Algebra", "course": "CS103" }
+  ]
