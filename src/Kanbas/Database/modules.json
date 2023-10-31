@@ -1,0 +1,20 @@
+[
+    {
+      "_id": "CS101",
+      "name": "Software Development",
+      "description": "Basic principles of software development.",
+      "course": "CS4500"
+    },
+    {
+      "_id": "CS102",
+      "name": "Web Development",
+      "description": "Understanding web development.",
+      "course": "CS4550"
+    },
+    {
+      "_id": "CS103",
+      "name": "Database Design",
+      "description": "Principles of database design.",
+      "course": "CS3200"
+    }
+]

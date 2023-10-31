@@ -1,0 +1,263 @@
+.home {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-right: 20px;
+    width: 65%;
+}
+
+hr {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.home i {
+    font-size: 15px;
+}
+
+.home button {
+    font-size: 15px;
+}
+
+.home .list-group-item i {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.home .list-group-item {
+    border-left: 5px solid #248f66;
+    padding-bottom: 20px;
+}
+
+.home .list-group {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.check-mark {
+    color: #ffffff; 
+    margin-left:4px; 
+    margin-top:4px; 
+    line-height: normal;
+}
+
+.green-circle {
+    color: #248f66;
+}
+
+#six-dots {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.home-icons {
+    padding-right: 0px;
+    float: left;
+}
+
+.home-content {
+    margin-left: 10px;
+    display: inline;
+    margin-top: 10px;
+}
+
+b {
+    font-size: 17;
+}
+
+h4 {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.badge {
+    border-radius: 1rem;
+    color: black;
+    margin-top: 5px;
+    outline-color: lightgrey;
+    outline-style: solid;
+    font-size: 15;
+}
+
+.home-content {
+    margin-left: 60px;
+}
+
+.home-section-header {
+    margin-left: 30px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.home-content-link {
+    margin-left: 10px;
+    display: inline;
+    margin-top: 10px;
+}
+
+/* course-status */
+.course-status {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-right: 15px;
+    padding-left: 10px;
+    width:13%;
+}
+
+.course-status button {
+    margin: 1px;
+    width: 100%;
+    text-align: left;
+}
+
+.publish {
+    width: 50%;
+}
+
+.course-status a {
+    color: black;
+    text-decoration: none;
+}
+
+.course-status hr {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.course-status .list-group-item {
+    padding-left: 0px;
+    border: none;
+    font-size: medium;
+}
+
+.course-status .list-group-item a {
+    color: red;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.course-status h5 {
+    padding-top: 10px;
+}
+
+.course-status p {
+    color: grey;
+    padding-left: 30px;
+}
+
+
+/* kanbas nav */
+.kanbas-nav {
+    float: left;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 85px;
+    height: 100vh;
+    position: fixed;
+}
+  
+  .kanbas-nav a {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-decoration: none;
+    font-size: small;
+    border: none;
+    margin-bottom: 5px;
+  }
+
+  .kanbas-nav .active {
+    background-color: white;
+    color: red;
+    border: none;
+    display: block;
+  }
+
+  .kanbas-nav i {
+    color: red;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    border: none;
+    margin-top: 3px;
+  }
+
+  .kanbas-nav img {
+    width: 5em;
+    text-align: center;
+  }
+
+
+/* course nav */
+.course-nav {
+    float: left;
+    width: 190px;
+    margin-left: 110px;
+    margin-top: 10px;
+    height: 100vh;
+  }
+
+  .course-nav .list-group-item {
+    border: none;
+    padding-top: 15px;
+    padding-left: 5px;
+  }
+
+  .course-nav .list-group-item.active {
+    color: black;
+    background-color: white;
+    border: none;
+    border-left: 2px solid black;
+    border-radius: 0px;
+  }
+
+  .course-nav a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .course-nav .list-group-item.active a {
+    color: black;
+  }
+
+  /* page header bar */
+
+  .page-title-bar {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 105px;
+    padding-top: 25px;
+    padding-right: 25px;
+    float: top;
+  }
+
+  .page-title-bar a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .page-title-bar i {
+    font-size: 1rem;
+  }
+
+  .page-title-bar p {
+    font-size: xx-large;
+  }
+
+  .page-title-bar hr {
+    margin-top: 30px;
+  }
