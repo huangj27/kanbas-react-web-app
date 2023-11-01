@@ -3,7 +3,7 @@ import ModuleList from "../Modules/ModuleList";
 function Home() {
   return (
     <div>
-      <h2>Home</h2>
+      <h2 style={{"margin-top":"30px"}}>Home</h2>
       <div className="home d-none d-md-block">
             <i>202410_1 Fall 2023 Semester</i>
             

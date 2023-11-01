@@ -12,7 +12,7 @@ function Courses({ courses }) {
   const course = courses.find((course) => course._id === courseId);
   return (
     <div>
-      <h1>Course {course.name}</h1>
+      <h1 style={{"margin-left":"100px"}}>Course {course.name}</h1>
       <CourseNavigation />
       <div>
         <div
