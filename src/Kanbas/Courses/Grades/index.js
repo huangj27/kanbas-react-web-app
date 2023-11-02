@@ -7,7 +7,7 @@ function Grades() {
   const assignments = db.assignments.filter((assignment) => assignment.course === courseId);
   const enrollments = db.enrollments.filter((enrollment) => enrollment.course === courseId);
   return (
-    <div className="grades">
+    <div className="grades" style={{"margin-top":"30px"}}>
       <h1>Grades</h1>
       <div className="table-responsive">
         <table className="table table-striped">

@@ -9,7 +9,7 @@ function Assignments() {
   const courseAssignments = assignments.filter(
     (assignment) => assignment.course === courseId);
   return (
-    <div className="assignment">
+    <div className="assignment" style={{"margin-top":"30px"}}>
       <h2>Assignments for course {courseId}</h2>
       <div className="list-group">
         {courseAssignments.map((assignment) => (
