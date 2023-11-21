@@ -6,7 +6,6 @@ const MODULES_URL = 'https://kanbas-node-server-app-dhos.onrender.com/api/module
 const COURSES_URL = 'https://kanbas-node-server-app-dhos.onrender.com/api/courses';
 
 
-
 export const updateModule = async (module) => {
     const response = await axios.
       put(`${MODULES_URL}/${module._id}`, module);
