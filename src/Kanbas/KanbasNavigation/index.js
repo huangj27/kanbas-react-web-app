@@ -6,8 +6,10 @@ import { FaBook } from "react-icons/fa";
 import { BsCalendar2Week } from "react-icons/bs";
 
 function KanbasNavigation() {
-  const links = ["Account", "Dashboard", "Courses", "Calendar"];
+  const links = ["Signin", "Signup", "Account", "Dashboard", "Courses", "Calendar"];
   const linksToIconsMap = {
+    Signin: <MdOutlineAccountCircle className="fs-1 text" />,
+    Signup: <MdOutlineAccountCircle className="fs-1 text" />,
     Account: <MdOutlineAccountCircle className="fs-1 text" />,
     Dashboard: <RiDashboard3Line className="fs-1 text" />,
     Courses: <FaBook className="fs-1 text" />,
